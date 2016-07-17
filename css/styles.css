@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Roboto+Mono|Roboto:300,400,500';
+* {
+    margin: auto;
+}
+
+body {
+    background-image: url(../res/akshaya-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.nav-mouseOn {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.nav-mouseOff {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#container {
+    margin: 10px;
+}
+
+#header {
+    height: 64px;
+    width: auto;
+    font-family: 'Pacifico', cursive;
+    padding: inherit;
+}
+
+#nav {
+    height: 32px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.nav-item {
+    display: inline-block;
+    height: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+.content-item {
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+}
+
+.content-item > p {
+    padding-bottom: 5px;
+}
+
+#footer {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    height: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
